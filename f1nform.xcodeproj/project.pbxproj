@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4718DDB52EA21AE6002354A7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4718DDB32EA21AD9002354A7 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		47E0D5922E2887920045F977 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4718DDB32EA21AD9002354A7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		47E0D5842E2887900045F977 /* f1nform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = f1nform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E0D5912E2887920045F977 /* f1nformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = f1nformTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E0D59B2E2887920045F977 /* f1nformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = f1nformUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +84,7 @@
 				47E0D5942E2887920045F977 /* f1nformTests */,
 				47E0D59E2E2887920045F977 /* f1nformUITests */,
 				47E0D5852E2887900045F977 /* Products */,
+				4718DDB32EA21AD9002354A7 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4718DDB52EA21AE6002354A7 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
