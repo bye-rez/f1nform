@@ -12,11 +12,11 @@ struct f1nform: App {
     var body: some Scene {
         WindowGroup {
             TabView {
-                NewsView()
+                News()
                     .tabItem {
                         Label("News", systemImage: "newspaper")
                     }
-                StandingsView()
+                Standings()
                     .tabItem {
                         Label("Standings", systemImage: "trophy")
                     }
